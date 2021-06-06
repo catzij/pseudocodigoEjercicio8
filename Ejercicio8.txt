@@ -1,0 +1,19 @@
+inicio
+	var numero
+	var salir 
+	
+	
+	mientras salir !S
+	
+	  random(0,1000)
+	  leer numero;
+	  
+	  si numero %5=0
+	  mostrar numero
+
+	  mostrar "quiere salir ingrese S"
+	  leer salir;
+		
+	fin mientras
+
+fin	
